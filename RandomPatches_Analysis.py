@@ -17,9 +17,6 @@ from sklearn import mixture
 import seaborn as sns
 
 
-df = pd.read_csv('/home/tyler/Downloads/CCPP/Folds5x2_pp.csv')
-
-
 
 
 
@@ -154,7 +151,7 @@ def RandomPatches_Analysis(dataset, y_variable, min_num_variables, iterations = 
     print(final_probs.to_string(index=False))
     
     
-RandomPatches_Analysis(df, y_variable = 'AT', min_num_variables = 3)
+
 
 
 
